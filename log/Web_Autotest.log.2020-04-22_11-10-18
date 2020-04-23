@@ -1,0 +1,31 @@
+2020-04-22 11:10:18,246 - [base_page.py Save_screenShot-->line:72] - INFO: 截图成功,路径为：C:\Users\zousongbai\Desktop\py_web_TR_boss\ScreenShot/登陆页面-获取用户名输入框_2020-04-22-11-10-18.png
+2020-04-22 11:10:18,583 - [base_page.py get_element-->line:58] - ERROR: 登陆页面-获取用户名输入框下查找元素失败
+Traceback (most recent call last):
+  File "C:\Users\zousongbai\Desktop\py_web_TR_boss\common\base_page.py", line 53, in get_element
+    return self.driver.find_element(*locator)
+  File "D:\softwork\python\python-3.7.5\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\softwork\python\python-3.7.5\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\softwork\python\python-3.7.5\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"userName"}
+  (Session info: chrome=81.0.4044.113)
+  (Driver info: chromedriver=71.0.3578.80 (2ac50e7249fbd55e6f517a28131605c9fb9fe897),platform=Windows NT 10.0.16299 x86_64)
+
+2020-04-22 11:10:18,596 - [base_page.py Save_screenShot-->line:72] - INFO: 截图成功,路径为：C:\Users\zousongbai\Desktop\py_web_TR_boss\ScreenShot/登陆页面-获取密码输入框_2020-04-22-11-10-18.png
+2020-04-22 11:10:18,906 - [base_page.py get_element-->line:58] - ERROR: 登陆页面-获取密码输入框下查找元素失败
+Traceback (most recent call last):
+  File "C:\Users\zousongbai\Desktop\py_web_TR_boss\common\base_page.py", line 53, in get_element
+    return self.driver.find_element(*locator)
+  File "D:\softwork\python\python-3.7.5\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\softwork\python\python-3.7.5\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\softwork\python\python-3.7.5\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"userPassword"}
+  (Session info: chrome=81.0.4044.113)
+  (Driver info: chromedriver=71.0.3578.80 (2ac50e7249fbd55e6f517a28131605c9fb9fe897),platform=Windows NT 10.0.16299 x86_64)
+
+2020-04-22 11:10:18,917 - [base_page.py Save_screenShot-->line:72] - INFO: 截图成功,路径为：C:\Users\zousongbai\Desktop\py_web_TR_boss\ScreenShot/登陆页面-获取登录按钮_2020-04-22-11-10-18.png
