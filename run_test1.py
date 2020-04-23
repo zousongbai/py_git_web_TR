@@ -18,8 +18,8 @@ import pytest
 import pytest
 # 添加入口
 # ③第三种方式：html。HTMLTestRunner。安装：pip install pytest-html
-# pytest.main(['-m login_success','-s','--html=reports/report.html'])
+pytest.main(['-m login_success','-s','--html=reports/report.html'])
 # -m：运行指定的参数，执行标记
 # -s：打印print的信息
 
-pytest.main(['-m login_success','-s',r'--alluredir=alluredir/'])
+# pytest.main(['-m login_success','-s',r'--alluredir=alluredir/'])
