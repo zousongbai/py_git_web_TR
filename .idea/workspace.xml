@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9df09395-05ec-426c-9207-c72477d78a5c" name="Default Changelist" comment="新增了04.py文件" />
+    <list default="true" id="9df09395-05ec-426c-9207-c72477d78a5c" name="Default Changelist" comment="新增了02">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.py" beforeDir="false" afterPath="$PROJECT_DIR$/03.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -211,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592379897995</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增了02">
+      <created>1592536147016</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592536147016</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,10 +243,26 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增了04.py文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增了04.py文件" />
+    <MESSAGE value="新增了02" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增了02" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="716" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592536124557">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="716" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592536124557" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1592536158275">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592536158275" />
+    <state x="645" y="306" key="git4idea.merge.GitPullDialog" timestamp="1592536080664">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="645" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592536080664" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

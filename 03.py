@@ -43,7 +43,7 @@ formatter = logging.Formatter('%(asctime)s - [%(filename)s-->line:%(lineno)d] - 
 # levelname：当前输出日志的等级
 # message：输出的日志信息
 # ②将输出格式和输出渠道进行绑定
-sh.setFormatter(formatter)  # 输出到控制台的绑定
+sh.setFormatter(formatter)  # 输出到控制台的绑定jjj
 fh.setFormatter(formatter)  # 输出到文件的绑定
 
 
